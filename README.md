@@ -1,6 +1,7 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# About FilmNestle Web App
+Discover, explore, and experience the world of cinema like never before with Film Nestle. Dive into authentic movie reviews, ratings, cast details, and captivating trailers all in one place. Get personalized recommendations and connect with a vibrant community of fellow movie enthusiasts. Your cinematic journey starts here at Film Nestle.
 
 Currently, two official plugins are available:
 
