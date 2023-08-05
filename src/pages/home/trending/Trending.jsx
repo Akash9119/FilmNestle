@@ -1,7 +1,7 @@
 import React,{ useState } from 'react';
 import ContentWrapper from '../../../components/contentWrapper/ContentWrapper';
 import SwitchTabs from '../../../components/switchTabs/SwitchTabs';
-import useFetch from '../../../hooks/UseFetch';
+import UseFetch from '../../../hooks/UseFetch';
 import Carousel from '../../../components/carousel/Carousel';
 
 
@@ -9,7 +9,7 @@ const Trending = () => {
 
     const [endPoint, setEndPoint] = useState("day");
 
-    const {data, loading} = useFetch(`/trending/all/${endPoint}`)
+    const {data, loading} = UseFetch(`/trending/all/${endPoint}`)
 
     const onTabChange = (tab) => {
         setEndPoint(tab === "Day" ? "day" : "week");
