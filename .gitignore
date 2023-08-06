@@ -23,10 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 
-# API_KEY
-
-.env*
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
